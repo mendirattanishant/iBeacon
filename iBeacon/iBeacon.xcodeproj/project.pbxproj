@@ -8,12 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		0F4E16C01F4C8F4600E2323C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F4E16BF1F4C8F4600E2323C /* AppDelegate.swift */; };
-		0F4E16C21F4C8F4600E2323C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F4E16C11F4C8F4600E2323C /* ViewController.swift */; };
+		0F4E16C21F4C8F4600E2323C /* AddItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F4E16C11F4C8F4600E2323C /* AddItemViewController.swift */; };
 		0F4E16C51F4C8F4600E2323C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F4E16C31F4C8F4600E2323C /* Main.storyboard */; };
 		0F4E16C81F4C8F4600E2323C /* iBeacon.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0F4E16C61F4C8F4600E2323C /* iBeacon.xcdatamodeld */; };
 		0F4E16CA1F4C8F4600E2323C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0F4E16C91F4C8F4600E2323C /* Assets.xcassets */; };
 		0F4E16CD1F4C8F4600E2323C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F4E16CB1F4C8F4600E2323C /* LaunchScreen.storyboard */; };
 		0F4E16D81F4C8F4600E2323C /* iBeaconTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F4E16D71F4C8F4600E2323C /* iBeaconTests.swift */; };
+		0F4E16E31F4C90CB00E2323C /* ItemsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F4E16E21F4C90CB00E2323C /* ItemsViewController.swift */; };
+		0F4E16EA1F4C91A800E2323C /* ItemTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F4E16E91F4C91A800E2323C /* ItemTableViewCell.swift */; };
+		0F4E16EC1F4C91C600E2323C /* IconCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F4E16EB1F4C91C600E2323C /* IconCollectionViewCell.swift */; };
+		0F4E16EE1F4C91EC00E2323C /* Icons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F4E16ED1F4C91EC00E2323C /* Icons.swift */; };
+		0F4E16F01F4C920100E2323C /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F4E16EF1F4C920100E2323C /* Item.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,7 +34,7 @@
 /* Begin PBXFileReference section */
 		0F4E16BC1F4C8F4600E2323C /* iBeacon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iBeacon.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0F4E16BF1F4C8F4600E2323C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		0F4E16C11F4C8F4600E2323C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0F4E16C11F4C8F4600E2323C /* AddItemViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddItemViewController.swift; sourceTree = "<group>"; };
 		0F4E16C41F4C8F4600E2323C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0F4E16C71F4C8F4600E2323C /* iBeacon.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = iBeacon.xcdatamodel; sourceTree = "<group>"; };
 		0F4E16C91F4C8F4600E2323C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -38,6 +43,11 @@
 		0F4E16D31F4C8F4600E2323C /* iBeaconTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iBeaconTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0F4E16D71F4C8F4600E2323C /* iBeaconTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iBeaconTests.swift; sourceTree = "<group>"; };
 		0F4E16D91F4C8F4600E2323C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0F4E16E21F4C90CB00E2323C /* ItemsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemsViewController.swift; sourceTree = "<group>"; };
+		0F4E16E91F4C91A800E2323C /* ItemTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemTableViewCell.swift; sourceTree = "<group>"; };
+		0F4E16EB1F4C91C600E2323C /* IconCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IconCollectionViewCell.swift; sourceTree = "<group>"; };
+		0F4E16ED1F4C91EC00E2323C /* Icons.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Icons.swift; sourceTree = "<group>"; };
+		0F4E16EF1F4C920100E2323C /* Item.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,12 +90,14 @@
 			isa = PBXGroup;
 			children = (
 				0F4E16BF1F4C8F4600E2323C /* AppDelegate.swift */,
-				0F4E16C11F4C8F4600E2323C /* ViewController.swift */,
 				0F4E16C31F4C8F4600E2323C /* Main.storyboard */,
 				0F4E16C91F4C8F4600E2323C /* Assets.xcassets */,
 				0F4E16CB1F4C8F4600E2323C /* LaunchScreen.storyboard */,
 				0F4E16CE1F4C8F4600E2323C /* Info.plist */,
 				0F4E16C61F4C8F4600E2323C /* iBeacon.xcdatamodeld */,
+				0F4E16E41F4C90FE00E2323C /* ViewControllers */,
+				0F4E16F21F4C922700E2323C /* Custom Cells */,
+				0F4E16F11F4C921400E2323C /* Classes */,
 			);
 			path = iBeacon;
 			sourceTree = "<group>";
@@ -97,6 +109,33 @@
 				0F4E16D91F4C8F4600E2323C /* Info.plist */,
 			);
 			path = iBeaconTests;
+			sourceTree = "<group>";
+		};
+		0F4E16E41F4C90FE00E2323C /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				0F4E16E21F4C90CB00E2323C /* ItemsViewController.swift */,
+				0F4E16C11F4C8F4600E2323C /* AddItemViewController.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		0F4E16F11F4C921400E2323C /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				0F4E16ED1F4C91EC00E2323C /* Icons.swift */,
+				0F4E16EF1F4C920100E2323C /* Item.swift */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		0F4E16F21F4C922700E2323C /* Custom Cells */ = {
+			isa = PBXGroup;
+			children = (
+				0F4E16E91F4C91A800E2323C /* ItemTableViewCell.swift */,
+				0F4E16EB1F4C91C600E2323C /* IconCollectionViewCell.swift */,
+			);
+			name = "Custom Cells";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -204,9 +243,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0F4E16EE1F4C91EC00E2323C /* Icons.swift in Sources */,
 				0F4E16C81F4C8F4600E2323C /* iBeacon.xcdatamodeld in Sources */,
-				0F4E16C21F4C8F4600E2323C /* ViewController.swift in Sources */,
+				0F4E16E31F4C90CB00E2323C /* ItemsViewController.swift in Sources */,
+				0F4E16EA1F4C91A800E2323C /* ItemTableViewCell.swift in Sources */,
+				0F4E16F01F4C920100E2323C /* Item.swift in Sources */,
+				0F4E16C21F4C8F4600E2323C /* AddItemViewController.swift in Sources */,
 				0F4E16C01F4C8F4600E2323C /* AppDelegate.swift in Sources */,
+				0F4E16EC1F4C91C600E2323C /* IconCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

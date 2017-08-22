@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "4AAC6A932DC8E0456CFF7F0314A29427E6709FC0",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "4AAC6A932DC8E0456CFF7F0314A29427E6709FC0" : 9223372036854775807,
+    "99F60CD1D14CE830F0688DB154B3BC67043DB559" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "7804F219-94FB-42C8-95A3-D134882FFA94",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "4AAC6A932DC8E0456CFF7F0314A29427E6709FC0" : "iBeacon\/",
+    "99F60CD1D14CE830F0688DB154B3BC67043DB559" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "iBeacon",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "iBeacon\/iBeacon.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/mendirattanishant\/iBeacon.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "4AAC6A932DC8E0456CFF7F0314A29427E6709FC0"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/mendirattanishant\/TipCalculator.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "99F60CD1D14CE830F0688DB154B3BC67043DB559"
+    }
+  ]
+}
